@@ -1,4 +1,4 @@
-from detection_video_vinothcopy import task
+from python_new import task
 
 from flask import Flask, render_template, Response,request,json,jsonify,make_response
 

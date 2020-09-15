@@ -49,7 +49,7 @@ def task(video,prototxt,model):
   illegal=False
   alert=False
   illegal_detection_percent=20
-  alarm_time=3
+  alarm_time=2
   print("Testing")
 
   while (ret):
@@ -198,6 +198,6 @@ def task(video,prototxt,model):
 
 # USAGE
 # python deep.py --video images/example_01.jpg --prototxt MobileNetSSD.prototxt.txt --model NetSSD.caffemodel
-# if __name__ == "__main__":
-# 	task("images/parking.mp4","MobileNetSSD.prototxt.txt","NetSSD.caffemodel")
+if __name__ == "__main__":
+	task("images/parking.mp4","MobileNetSSD.prototxt.txt","NetSSD.caffemodel")
 
